@@ -331,7 +331,7 @@ This is just a preview want more details, then use `tree` inside the repo.
 >     spec:
 >       containers:
 >       - name: migration
->         image: iemafzal/easyshop-migration:latest  # update with the name that you have build.
+>         image: arnab23/easyshop-migration:latest  # update with the name that you have build.
 >         imagePullPolicy: Always
 >         env:
 >         - name: MONGODB_URI
@@ -341,7 +341,7 @@ This is just a preview want more details, then use `tree` inside the repo.
 
 >   ```bash
 >      # Run database migration
->      kubectl apply -f kubernetes/migration-job.yaml
+>      kubectl apply -f kubernetes/12-migration-job.yaml
 >   ```
 
 ## Verification
