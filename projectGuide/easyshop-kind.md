@@ -214,7 +214,7 @@ This is just a preview want more details, then use `tree` inside the repo.
 >    spec:
 >      containers:
 >        - name: easyshop
->          image: iemafzal/easyshop:latest
+>          image: arnab23/easyshop:latest
 >          imagePullPolicy: Always
 >          ports:
 >            - containerPort: 3000
